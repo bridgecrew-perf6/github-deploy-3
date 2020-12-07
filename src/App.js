@@ -13,7 +13,7 @@ const Controls = (props) => {
   return <orbitControls ref={ref} args={[camera, gl.domElement]} {...props} />
 }
 
-const Box({ position }) {
+const Box = ({ position }) => {
   // Register box as a physics body with mass
   const ref = useRef()
   
