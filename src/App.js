@@ -19,7 +19,7 @@ const Box = ({ position }) => {
   return (
     <mesh ref={ref} castShadow receiveShadow>
       <boxGeometry attach="geometry" args={[1, 1, 1]} />
-      <meshStandardMaterial attach="material" roughness={0.5} color={niceColors[6][2]} />
+      <meshStandardMaterial attach="material" roughness={0.5} color={niceColors[6][3]} />
     </mesh>
   )
 }
