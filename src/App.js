@@ -2,7 +2,6 @@ import React, { useRef } from 'react'
 import {Canvas, useFrame, useThree, extend} from 'react-three-fiber'
 import niceColors from 'nice-color-palettes'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
-import { Font } from './Font'
 
 extend({ OrbitControls })
 const Controls = (props) => {
@@ -19,8 +18,8 @@ const Box = ({ position }) => {
   
   return (
     <mesh ref={ref} castShadow receiveShadow>
-      <boxGeometry attach="geometry" args={[2, 2, 2]} />
-      <meshStandardMaterial attach="material" roughness={0.5} color="#575757" />
+      <boxGeometry attach="geometry" args={[1, 1, 1]} />
+      <meshStandardMaterial attach="material" roughness={0.5} color={niceColors[6][2]} />
     </mesh>
   )
 }
