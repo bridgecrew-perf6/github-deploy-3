@@ -1,0 +1,29 @@
+{
+  "name": "github-deploy",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:snolot/github-deploy.git",
+  "author": "Sylvain Nolot <sno@emakina.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3",
+    "react-three-fiber": "5.0.1",
+    "three": ">=0.121",
+    "nice-color-palettes": "3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
